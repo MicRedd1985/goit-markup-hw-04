@@ -612,8 +612,15 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--first-bcg-color);
+    display: flex
 }
 
+.footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+}
 
 .footer-link .link:hover,
 .footer-link .link:focus {
@@ -628,7 +635,7 @@ img {
 
 .footer-link .link {
     text-decoration: none;
-   
+   display: flex;
     
     line-height: 1.71;
    
@@ -665,9 +672,15 @@ img {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
     text-decoration: none;
-    display: block;
+    display: inline-flex;
     margin-bottom: 20px;
 }
+
+.btm-port .active {
+    background-color: var(--accent-color);
+    color: var(--primery-white-color);
+  }
+  
 .footer-social-thumb {
     margin-left: 70px;
   }
@@ -703,3 +716,5 @@ img {
     background-color: #2196f3;
     color: #ffffff;
   }  
+  
+  
