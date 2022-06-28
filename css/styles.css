@@ -621,6 +621,10 @@ img {
     padding: 0 15px;
     display: flex;
 }
+.footer-social-thumb{
+ color: var(--secondary-text-color) 
+}
+
 
 .footer-link .link:hover,
 .footer-link .link:focus {
