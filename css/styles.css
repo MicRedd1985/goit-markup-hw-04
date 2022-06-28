@@ -631,3 +631,38 @@ img {
     display: block;
     margin-bottom: 20px;
 }
+.footer-social-thumb {
+    margin-left: 70px;
+  }
+  .footer-social-title {
+    font-weight: 700;
+    line-height: 1.14;
+    color: var(--primery-white-color);
+    margin-bottom: 20px;
+  }
+  .footer-social-links {
+    display: flex;
+    width: 206px;
+    height: 44px;
+    align-items: baseline;
+    padding: 0;
+    justify-content: center;
+  }
+  .footer-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--primery-white-color);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .footer-social-link:not(:last-child) {
+    margin-right: 10px;
+  }
+  .footer-link-icon:hover,
+  .footer-link-icon:focus {
+    background-color: #2196f3;
+    color: #ffffff;
+  }  
