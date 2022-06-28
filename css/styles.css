@@ -528,8 +528,43 @@ img {
     background-color: #2196f3;
     color: #ffffff;
   }
-  
 
+  /*our clients*/
+
+  .clients-icon-list {
+    display: flex;
+    font-size: 36px;
+    line-height: 1.16;
+    margin-top: 50px;
+    margin-bottom: 94px;
+    padding: 0;
+    text-align: center;
+  }
+  .clients-icon-item:not(last-child) {
+    margin-right: 30px;
+  }
+  .clients-icon-link {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: #afb1b8;
+  }
+  .clients-icon {
+    fill: currentColor;
+  }
+  .clients-icon-link:hover,
+  .clients-icon-link:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+ 
+
+  
 /* footer */
 
 
