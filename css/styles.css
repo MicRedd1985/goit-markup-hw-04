@@ -330,7 +330,7 @@ img {
     background-color: #2f303a;
     text-align: center;
     padding: 200px 0;
-    max-height: 1600px;
+    max-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -541,10 +541,10 @@ img {
 
 .team-social-icons {
     display: flex;
-    width: 206px;
+    
     height: 44px;
     margin-top: 20px;
-    margin-left: 30px;
+    
     padding: 0;
     justify-content: center;
   }
@@ -577,9 +577,10 @@ img {
     padding: 0;
     text-align: center;
   }
-  .clients-icon-item:not(last-child) {
+  .clients-icon-item:not(:last-child) {
     margin-right: 30px;
   }
+
   .clients-icon-link {
     display: flex;
     box-sizing: border-box;
@@ -620,6 +621,7 @@ img {
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
+    align-items: baseline;
 }
 .footer-social-thumb{
  color: var(--secondary-text-color) 
