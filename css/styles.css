@@ -695,7 +695,7 @@ img {
     
     font-size: 14px;
     line-height: 1.14;
-    color: var(--primery-white-color);
+    color: var(--secondary-text-color); 
     margin-bottom: 20px;
     text-transform: uppercase;
   }
@@ -714,7 +714,7 @@ img {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: var(--primery-white-color);
+    color: var(--secondary-text-color);
     background-color: rgba(255, 255, 255, 0.1);
   }  .footer-social-link:not(:last-child) {
     margin-right: 10px;
