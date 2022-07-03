@@ -181,6 +181,7 @@ img {
 .icon-mail,
 .icon-tel {
   margin-right: 10px;
+  vertical-align: -1px;
 }
 
   
