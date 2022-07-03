@@ -683,8 +683,8 @@ img {
 }
 
 .btm-port .active {
-    background-color: var(--accent-color);
-    color: var(--primery-white-color);
+    background-color: var(--link-color);
+    color: var(--secondary-text-color);
   }
   
 .footer-social-thumb {
@@ -716,7 +716,9 @@ img {
     border-radius: 50%;
     color: var(--secondary-text-color);
     background-color: rgba(255, 255, 255, 0.1);
-  }  .footer-social-link:not(:last-child) {
+      }  
+      
+    .footer-social-link:not(:last-child) {
     margin-right: 10px;
   }
   .footer-link-icon:hover,
