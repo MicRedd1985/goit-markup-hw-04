@@ -184,8 +184,8 @@ img {
   vertical-align: -1px;
 }
 
-.icon-mail .link:hover,
-.icon-tel .link:focus {
+.icon-mail:hover,
+.icon-tel:focus {
     color: var(--link-color);
 }
 
