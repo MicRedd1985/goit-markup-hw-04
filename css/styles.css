@@ -184,7 +184,10 @@ img {
   vertical-align: -1px;
 }
 
-  
+.icon-mail .link:hover,
+.icon-tel .link:focus {
+    color: var(--link-color);
+}
 
 /* main */
 .visually-hidden {
