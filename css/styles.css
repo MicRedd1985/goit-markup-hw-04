@@ -175,20 +175,27 @@ img {
     margin-right: 50px;
 }
 
-.icon-mail,
-.icon-tel {
-  fill: currentColor;
-}
-.icon-mail,
-.icon-tel {
-  margin-right: 10px;
-  vertical-align: -1px;
-}
-
-.icon-mail:hover,
-.icon-tel:focus {
-    color: var(--link-color);
-}
+.icon-mail {
+    vertical-align: -1px;
+  
+    width: 16px;
+    height: 12px;
+  
+    margin-right: 10px;
+  
+    fill: currentColor;
+  }
+  
+  .icon-tel {
+    vertical-align: bottom;
+  
+    width: 10px;
+    height: 16px;
+  
+    margin-right: 10px;
+  
+    fill: currentColor;
+  }
 
 /* main */
 .visually-hidden {
@@ -729,5 +736,7 @@ img {
     background-color: #2196f3;
     color: #ffffff;
   }  
+
+  
   
   
