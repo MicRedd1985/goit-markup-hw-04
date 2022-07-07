@@ -120,8 +120,8 @@ img {
 }
 
 
-.header-content .link :hover,
-.header-content .link :focus{
+.header-content .link:hover,
+.header-content .link .header-link:focus{
     color: var(--link-color);
 }
 
@@ -250,6 +250,9 @@ img {
 .buttons .button:focus {
     background-color: var(--link-color);
     color: var(--secondary-text-color);
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .buttons .button.active {
@@ -304,6 +307,12 @@ img {
 
 .project-card {
  width: 370px;
+ }
+
+ .project-card:hover,
+.project-card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-card:nth-child(-n + 6) {
@@ -579,6 +588,11 @@ img {
   .social-link-icon:focus {
     background-color: #2196f3;
     color: #ffffff;
+   
+  }
+
+  .icon-social:not(:last-child) {
+    margin-right: 10px;
   }
 
   /*our clients*/
@@ -612,8 +626,9 @@ img {
   }
   .clients-icon-link:hover,
   .clients-icon-link:focus {
-    color: var(--secondary-text-color);
-    background-color: var(--link-color);
+    color: var(--link-color);
+    background-color: var(--secondary-text-color);
+    border-color: var(--link-color);
   }
  
 
@@ -719,6 +734,7 @@ img {
     align-items: baseline;
     padding: 0;
     justify-content: center;
+    color: var(--secondary-text-color);
     
   }
   .footer-link-icon {
@@ -738,7 +754,7 @@ img {
   .footer-link-icon:hover,
   .footer-link-icon:focus {
     background-color: #2196f3;
-    color: #ffffff;
+    color: var(--secondary-text-color);
   }
 
   
