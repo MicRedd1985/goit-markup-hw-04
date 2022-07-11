@@ -121,7 +121,7 @@ img {
 
 
 .header-content .link:hover,
-.header-content .link .header-link:focus{
+.header-content .link:focus{
     color: var(--link-color);
 }
 
