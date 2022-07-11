@@ -315,6 +315,11 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.project-shadow {
+    display: block;
+    cursor: pointer;
+}
+
 .project-box {
     padding: 20px 24px;
     border: 1px solid var(--secondary-border-color);
@@ -346,6 +351,7 @@ img {
     margin-right: auto;
     font-size: 16px;
     line-height: 1.87;
+    color: var(--primary-text-color);
     
     
 }
